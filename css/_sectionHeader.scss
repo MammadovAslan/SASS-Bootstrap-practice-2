@@ -1,0 +1,13 @@
+@import "mixins";
+@import "variables";
+
+.section__header {
+  .header {
+    font-weight: 700;
+    position: relative;
+    @include headerUnderline;
+  }
+  .description {
+    letter-spacing: 2px;
+  }
+}
